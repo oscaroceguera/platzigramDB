@@ -1,0 +1,7 @@
+- Usar Hash en Node -
+
+$ node
+> crypto = require('crypto')
+> shasum = crypto.createHash('sha256')
+> shasum.update('foo123')
+> shasum.digest('hex')
